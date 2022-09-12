@@ -1,0 +1,96 @@
+body{
+    background-color: #fadab8;
+}
+
+/***********************************-***********************************/
+/*Menu*/
+.Inicio, .Introduccion_a_JavaScript, .Elementos_Basicos{
+    float: left;
+}
+/***********************************-***********************************/
+/*contenido de la paigna*/
+.contenido{
+    Margin-top:1cm;
+    text-align: justify;
+    margin-left: 10px;
+}
+
+
+/*poner trancision a los textos*/
+#Trancision:hover{
+    background-color: #f5ebeb;
+    transition: background-color .6s;
+}    
+
+
+/*justificar los textos y ponerles limite de tamaño*/
+.Justificado{
+    text-align: justify;
+    max-width: 360px;
+    font-family: Arial;
+    font-size: 18px;
+}
+
+#Lista{
+    max-width: 360px;
+
+}
+
+
+/*Dar tamaño por defecto a la imagen*/
+img{
+    width: 260px;
+    height: 260px;
+
+}
+
+/*tablas*/
+ul{
+    list-style-position: inside;
+    text-align: center;
+    font-family: Arial;
+    font-size: 18px;
+
+  }
+
+/*"Editar JavaScript"*/
+#Editar_JavaScript{
+    width: 560px;
+    height: 260px;
+  
+}
+
+/*"Editores de texto"*/
+#Imagenes_editores{
+    width: 160px;
+    height: 160px;
+    Margin: 5px;
+    border: 1px solid black;
+}
+
+/*Mecanismos de JavaScript*/
+#Mecanismos_JavaScript{
+    width: 560px;
+    height: 260px;
+
+}
+
+/*operadores*/
+#Operadores{
+float:left; 
+}
+
+#Operadores_Imagen{
+float: left;
+width: 500px;
+height: 160px;
+margin-left: 50px;
+}
+
+/*Operadores Logicos*/
+.Justify_OpLogicos{
+    max-width: 20cm;
+    text-align: justify;
+}
+
+/*Copyright*/
